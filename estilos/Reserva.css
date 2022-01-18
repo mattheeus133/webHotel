@@ -1,0 +1,97 @@
+ul{ /* Barra de navegação */
+    position: fixed;  /* parte para não deixar nenhum espaço em branco na barra de navegação */
+    top: 0;
+    width: 100%;
+    right: 0;
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #484848;
+    
+}
+.logo{
+    color: white;
+}
+ h3{
+     margin-top: 10%; /* Arrumar o campo Hotel Diverse na barra de navegação */
+     
+ }
+
+li{
+    display: inline;
+    float: left;
+}
+
+ li a{
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+
+.pesq{  /* Barra de pesquisa */
+    position: fixed;
+    left: 78%;
+   height: 5%;
+   top: 1%;
+    
+}
+
+.botao1{ /* Botão de pesquisa */
+
+  color: #3366ff;
+    border-radius: 5px;
+    position: fixed;
+    left: 92%;
+    height: 6%;
+    top: 1%;
+  
+}
+
+h1{
+    font-family: Arial, verdana;
+    color: #3366ff ;
+
+}
+
+.form{
+    max-width: 600px;  /*Largura maxima*/
+    margin-left: 30%; /* Margin a esquerda da tela */
+    margin-top: 5%; /* Margim de cima */
+    justify-content: center;
+}
+
+
+.campo{ /* tags com class campo*/
+    margin-bottom: 10px;
+    font-family: arial;
+    
+}
+
+input{ /* campos inputs que são os quadros */
+    border-radius: 5px; /* Da um elemento curvo nos quadros do formulario */
+    font-family: arial;
+}
+.botao{
+    border-radius: 5px;
+    
+}
+
+.botao:focus{   /* Usado para dar focu em algum elemento quando passado o mouse */
+    color: #3366ff;
+    
+    
+}
+select{
+    border-radius: 5px ;
+    
+}

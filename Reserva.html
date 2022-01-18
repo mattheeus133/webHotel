@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos/Reserva.css" media="screen" /> 
+    <title>Reserva</title>
+</head>
+<body>
+    <ul>
+        <li><h3 class="logo">Hotel Diverse</h3></li>
+        <li><a href="file:///C:/Users/User/Documents/HTML/Sistema%20web%20Hotel/SistemaHotel.html">Home</a></li>
+        <li><a href="file:///C:/Users/User/Documents/HTML/Sistema%20web%20Hotel/Reserva.html">Reserva</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a class="active" href="#">Mais</a></li>
+        <form class="for">
+        <input class="pesq" type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar">
+        <button class="botao1" type="submit">Pesquisar</button>
+        </form>
+    </ul>
+
+    <form class="form">
+
+        <fieldset class="grupo"><legend><h1>Faça sua reserva</h1></legend>
+    
+          <div class="campo">
+            <label>Nome:</label>
+            <input type="text" list="Minha lista" name="nome" id="nome" required>
+            <datalist id="Minha lista">
+              <option value="Matheus"></option>
+              <option value="Ana Luiza"></option>
+              <option value="Maria"></option>
+              <option value="José"></option>
+      
+            </datalist>
+            <label>Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+    
+          </div>
+    
+      
+          
+         
+    
+          <div class="campo">
+            <label>Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="hotel@gmail.com">
+          </div>
+    
+          <div class="campo">
+            <label>CPF:</label><br>
+            <input type="text" name="cpf" id="cpf" required placeholder="xxx-xxx-xxx-xx">
+          </div>
+    
+          <div class="campo">
+            <label>Telefone:</label><br>
+            <input type="tel" name="telefone" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+          </div>
+    
+          <div class="campo">
+            <label>Selecione o Quarto</label>
+            <select name="Quarto">
+              <option>Quarto de solteiro</option>
+              <option>Quarto de casal</option>
+              <option>Quarto Standard</option>
+              <option>Suite Presidencial</option>
+    
+    
+            </select>
+          </div>
+    
+          <div class="campo">
+            <label>Data de entrada:</label>
+            <input type="date" name="data" id="data">
+            <label>Data de saida:</label>
+            <input type="date" name="data" id="data">
+          </div>
+    
+          <div class="campo">
+            <label>Nº de adultos</label>
+            <select name="num">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+    
+              <label class="num">Nº de crianças</label>
+            <select class="num1" name="num1">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+    
+    
+            </select>
+          </div>
+    
+          
+    
+          <div class="campo">
+            <label class="obs">Observação:</label><br>
+            <textarea rows="6" style="width: 26em" id="msg" name="msg"></textarea>
+          </div>
+    
+        </fieldset>
+    
+    
+        <br><button class="botao" type="submit">Concluir</button>
+    
+    </form> 
+</body>
+</html>
